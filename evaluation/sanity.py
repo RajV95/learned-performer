@@ -12,7 +12,7 @@ def run_sanity():
     out = attn(Q, K, V)
 
     assert out.shape == (B, H, N, D)
-    print("✅ Sanity check passed")
+    print("Sanity check passed")
 
 if __name__ == "__main__":
     run_sanity()
